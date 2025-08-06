@@ -1,0 +1,16 @@
+[package]
+name = "pinch"
+version = "0.1.0"
+edition = "2021"
+authors = ["WMouton"]
+description = "Compress and decompress .tar.gz archives."
+documentation = "https://github.com/wmouton/pinch"
+readme = "README.md"
+repository = "https://github.com/wmouton/pinch"
+license = "GPL-3.0"
+keywords = ["rust", "tool", "terminal", "cli", "compress", "decompress"]
+categories = ["command-line-utilities"]
+homepage = "https://github.com/wmouton/pinch"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
